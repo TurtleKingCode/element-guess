@@ -1,2 +1,2 @@
-language = "python3"
-run = "PythonFiles/main.py"
+language = ""
+run = "echo hello world"
