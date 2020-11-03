@@ -10,8 +10,8 @@ class Bot:
 		self.description = description
 		self.intro = "Hi, my name is " + self.name + "\n\n" + self.description + "."
 	randomElement = 0
+	
 	def pickRandomElement(self):
-		# global randomElement
 		Bot.randomElement = random.choice(Elem.Elements)
 		if (Bot.randomElement.number == 0):
 			Bot.pickRandomElement(self)
@@ -47,10 +47,14 @@ class System:
 # User = User()
 class User:
 	phrases = ["I'm guessing: ", "I'm feeling like: ", "I'll say the number is: ", "Is the number: ", "I think the number could be: ", "How about: "]
-	totalGuesses = []
+	allGuesses = []
+	guessCount = 0
+	lastGuess = 0
 	class info:
 		def __init__(self):
 			self.name = str(input("My " + System.generateRandomMessage(System.nameAdjs.second) + " name is: "))
 	def guess(self):
-		newGuess = input(System.generateRandomMessage(User.phrases))
-		User.totalGuesses.append(newGuess)
+		guessInput = input(System.generateRandomMessage(User.phrases))
+		User.allGuesses.append(guessInput)
+		User.guessCount += 1
+		User.lastGuess = guessInput
