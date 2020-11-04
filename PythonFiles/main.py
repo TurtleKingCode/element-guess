@@ -8,7 +8,7 @@ import Responces
 
 
 # Setting up Clyde
-Clyde = Responces.Bot("Clyde", "I like computing numbers,\nplaying games,\nrunning new code programs,\nand Watching Mecha Anime.\n(My favorite is Robotics;Notes)")
+Clyde = Responces.Bot("Clyde", "I like computing numbers, 💻\nplaying games, 🎮\nrunning new code programs,\nand Watching Mecha Anime. 💮\n(My favorite is Robotics;Notes)")
 
 # Setting up Responces
 User = Responces.User()
@@ -18,7 +18,7 @@ Clyde.Print(Clyde.intro)
 
 Clyde.Print("\n--------------------------------------\n")
 
-Clyde.Print(Clyde.askName() +" \n")
+Clyde.Print(Clyde.askName())
 userName = User.info().name
 
 # Clyde.Print('''
@@ -51,7 +51,8 @@ Clyde.Print('''
 Aight, let's start!!!
 Give me some time to guess an Element...
 [''' + Clyde.name + ''' goes brrrr]''')
-Clyde.Print('''........................................\n''', 0.02)
+Clyde.Print('''........................................''', 0.02)
 # Actually starting the game itself
 
 Clyde.pickRandomElement()
+Clyde.Game(Clyde, User)

@@ -1,6 +1,6 @@
 # import Elem
-import Responces
-# import main
+# import Responces
+import main
 # import random
 # import sys
 # from time import sleep
@@ -37,24 +37,41 @@ import Responces
 # f = numberInput("oranges: ", int)
 
 # --------------------------------------
-Clyde = Responces.Bot("Clyde", "I am cool")
-User = Responces.User()
-Clyde.Print(Clyde.intro)
-Clyde.pickRandomElement()
+# Clyde = Responces.Bot("Clyde", "I am cool")
+# User = Responces.User()
+# Clyde.Print(Clyde.intro)
+# Clyde.pickRandomElement()
 
-while True:
-	User.guess()
-	if int(User.lastGuess) < Clyde.randomElement.number:
-		Clyde.Print("Too Small\n")
-	elif int(User.lastGuess) > Clyde.randomElement.number:
-		Clyde.Print("Too Big\n")
-	elif int(User.lastGuess) == Clyde.randomElement.number:
-		Clyde.Print("Perfect\n")
-		print(User.lastGuess)
-		print(User.allGuesses)
-		print(User.guessCount)
+# while True:
+# 	User.guess()
+# 	if int(User.lastGuess) < Clyde.randomElement.number:
+# 		Clyde.Print("Too Small\n")
+# 	elif int(User.lastGuess) > Clyde.randomElement.number:
+# 		Clyde.Print("Too Big\n")
+# 	elif int(User.lastGuess) == Clyde.randomElement.number:
+# 		Clyde.Print("Perfect\n")
+# 		print(User.lastGuess)
+# 		print(User.allGuesses)
+# 		print(User.guessCount)
 		
-		break
+# 		break
+
+# def Guess():
+# 	User.guess()
+# 	if (int(User.lastGuess) < Clyde.randomElement.number):
+# 		Clyde.Print("Too Small \n")
+# 		Guess()
+# 	elif (int(User.lastGuess) > Clyde.randomElement.number):
+# 		Clyde.Print("Too Big \n")
+# 		Guess()
+# 	elif int(int(User.lastGuess) == Clyde.randomElement.number):
+# 		Clyde.Print("Perfect, \n")
+# 		print(User.lastGuess)
+# 		print(User.allGuesses)
+# 		print(User.guessCount)
+
+
+# Guess()
 	# print(User.lastGuess)
 	# print(User.allGuesses)
 	# print(User.guessCount)
