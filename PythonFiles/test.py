@@ -1,6 +1,6 @@
 # import Elem
 # import Responces
-import main
+# import main
 # import random
 # import sys
 # from time import sleep
@@ -75,3 +75,23 @@ import main
 	# print(User.lastGuess)
 	# print(User.allGuesses)
 	# print(User.guessCount)
+
+# def scoreCalculator(x):
+# 	score = 0
+# 	if x <= 7:
+# 		score = ((7 - x + 1) * (7 - x + 2))/2 + 52
+# 	else:
+# 		score = 59 - x
+# 	return score
+
+# print(((7 - 1 + 1) * (7 - 1 + 2))/2)
+# print(scoreCalculator(10))
+# print(scoreCalculator(9))
+# print(scoreCalculator(8))
+# print(scoreCalculator(7))
+# print(scoreCalculator(6))
+# print(scoreCalculator(5))
+# print(scoreCalculator(4))
+# print(scoreCalculator(3))
+# print(scoreCalculator(2))
+# print(scoreCalculator(1))
