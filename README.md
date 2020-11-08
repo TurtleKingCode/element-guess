@@ -19,6 +19,6 @@ My project here has a ton of folders and files, so I need to explay what you nee
 4. I assume that the folder was added by Repl.it when I transfered my repository there.
 5. Anyways, nothing there is important to me... All you have to pay attention are the three files below it
 6. Those being...<br>
-	a.`main.py` Which is where the front of my progrom is.  You have to run this file not the others.<br>
+	a.`main.py`: Which is where the front of my progrom is.  You have to run this file not the others.<br>
 	b.`Reponces.py`: This is where I stored all the functionality of the Code.  Where the game was set up, and it contains the code that runs Clyde<br>
 	c.`Elem.py`: This is where I stored all the Elements of the Periodic table, and their information.
