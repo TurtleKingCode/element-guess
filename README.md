@@ -3,7 +3,7 @@ By-weekly Challenge 2:  I'm making a number guessing game based on the elements 
 # How it works
 1. You will meet Clyde.
 2. Clyde will introduce himself. And interact with you.
-3. Afterwards,  Clyde will pick a number from 1 - 118.
+3. Afterwards,  Clyde will pick a number from 1 - 118.<br>
 	a. He picked an element on the Periodic Table.
 4. You will have to guess that numberhe picked.
 5. Clyde will tell you whether your number was too big or too small.
@@ -19,6 +19,6 @@ My project here has a ton of folders and files, so I need to explay what you nee
 4. I assume that the folder was added by Repl.it when I transfered my repository there.
 5. Anyways, nothing there is important to me... All you have to pay attention are the three files below it
 6. Those being...
-	a.`main.py` Which is where the front of my progrom is.  You have to run this file not the others.
-	b.`Reponces.py`: This is where I stored all the functionality of the Code.  Where the game was set up, and it contains the code that runs Clyde
-	b.`Elem.py`: This is where I stored all the Elements of the Periodic table, and their information.
+	a.`main.py` Which is where the front of my progrom is.  You have to run this file not the others.<br>
+	b.`Reponces.py`: This is where I stored all the functionality of the Code.  Where the game was set up, and it contains the code that runs Clyde<br>
+	b.`Elem.py`: This is where I stored all the Elements of the Periodic table, and their information.<br>
