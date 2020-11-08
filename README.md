@@ -9,5 +9,16 @@ By-weekly Challenge 2:  I'm making a number guessing game based on the elements 
 5. Clyde will tell you whether your number was too big or too small.
 6. However, just because Clyde is a robot doesn't mean he has all day.
 7. Clyde has feelings too and he gets tired too.
-7. After 59 tries, Clyde will stop you and tell you the answer.
-8. Clyde also has a point system and will give you a score at the end of the game based on your performance
+8. After 59 tries, Clyde will stop you and tell you the answer.
+9. Clyde also has a point system and will give you a score at the end of the game based on your performance
+# How To Run Code
+My project here has a ton of folders and files, so I need to explay what you need in order to be able to run the Code.
+1. Do't pay attention to `.replit` file.  That file tells Repl.it what to do when I press the "Run" Button.
+2. Pay Attention to the `PythonFiles` folder because it is where I stored all my important Python Files.
+3. Once you get there, you will see another folder titled `__pycache__`.  I don't know what the point of that folder is.
+4. I assume that the folder was added by Repl.it when I transfered my repository there.
+5. Anyways, nothing there is important to me... All you have to pay attention are the three files below it
+6. Those being...
+	a.`main.py` Which is where the front of my progrom is.  You have to run this file not the others.
+	b.`Reponces.py`: This is where I stored all the functionality of the Code.  Where the game was set up, and it contains the code that runs Clyde
+	b.`Elem.py`: This is where I stored all the Elements of the Periodic table, and their information.
