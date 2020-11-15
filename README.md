@@ -22,7 +22,3 @@ My project here has a ton of folders and files, so I need to explay what you nee
 	a.`main.py`: Which is where the front of my progrom is.  You have to run this file not the others.<br>
 	b.`Reponces.py`: This is where I stored all the functionality of the Code.  Where the game was set up, and it contains the code that runs Clyde<br>
 	c.`Elem.py`: This is where I stored all the Elements of the Periodic table, and their information.
-<br>
-<br>
-If you want to run the Code from Repl.it instead... use this link:
-[Repl.it Project](https://repl.it/join/hjfmuhxp-franklinoguama)
